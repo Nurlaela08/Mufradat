@@ -1,0 +1,116 @@
+/* section1 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(91, 10, 172);
+}
+.kepala {
+  background-color: rgb(117, 231, 191);
+}
+.navigasi {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+.beranda {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+li {
+  margin: 20px;
+  color: rgb(56, 125, 142);
+}
+.logo {
+  align-content: center;
+  padding-left: 20px;
+  color: rgb(133, 29, 230);
+  font-size: 30px;
+  font-weight: 900;
+  transition: transform 1s ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+.logo1 {
+  color: rgb(236, 236, 105);
+}
+a {
+  text-decoration: none;
+  color: rgb(110, 18, 197);
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+a:hover {
+  color: antiquewhite;
+}
+.halaman1 {
+  display: flex;
+  align-items: center;
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+.text {
+  padding: 200px;
+  margin-bottom: 100px;
+}
+.gambar {
+  padding-left: 100px;
+  margin: 50px;
+  animation: moveY 2s infinite alternate;
+}
+@keyframes moveY {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+.judul {
+  margin-bottom: 30px;
+  font-size: 70px;
+}
+.tombol {
+  background-color: rgb(215, 105, 193);
+  border-radius: 10px;
+}
+/* section2 */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 90px;
+}
+.judul2 {
+  margin-bottom: 30px;
+  font-size: 100px;
+  padding: 30px;
+  text-align: center;
+  color:yellow;
+}
+.coy {
+  background-image: url(images.jpg);
+  background-size: cover;
+}
+/* section3 */
+.meong {
+  margin-bottom: 40px;
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+}
+.paragraf {
+  text-align: justify;
+  font-size: 28px;
+  margin: 50px;
+}
+
+.cy {
+  text-align: center;
+}
+.nyok {
+  background-color: rgb(118, 198, 188);
+  color: rgb(222, 236, 28);
+}
